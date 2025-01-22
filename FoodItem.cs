@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,6 +22,11 @@ namespace Mission3
             Quantity = quantity;
             ExpireDate = expireDate;
         }
+        public void DisplayFoodItem()
+        {
+            Console.WriteLine($"Food Name: {Name}, Category: ${Category}, Quantity: ${Quantity}, Expiration Date: ${ExpireDate}")
+        }
     }
+    
 }
 
