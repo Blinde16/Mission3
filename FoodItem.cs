@@ -14,6 +14,8 @@ namespace Mission3
         public int Quantity = 0;
         public string ExpireDate = "";
 
+        
+
         //Constructor to create FoodItem objects
         public FoodItem(string name, string category, int quantity, string expireDate)
         {
@@ -22,10 +24,7 @@ namespace Mission3
             Quantity = quantity;
             ExpireDate = expireDate;
         }
-        public void DisplayFoodItem()
-        {
-            Console.WriteLine($"Food Name: {Name}, Category: ${Category}, Quantity: ${Quantity}, Expiration Date: ${ExpireDate}")
-        }
+        
     }
     
 }
